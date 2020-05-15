@@ -78,7 +78,7 @@ def search(node, val):
     else:
         return search(node.left, val)
 
-
+'''
 def delete(head, val):
     delete_node = search(head, val)
     if delete_node is True:
@@ -99,7 +99,7 @@ def delete(head, val):
 
 
     node = inorder_node(head.right)
-
+'''
 
 if __name__ == "__main__":
     base_array = [1, 5, 2, 1, 8, 3, 7, 3]

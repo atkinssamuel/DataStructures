@@ -9,6 +9,10 @@ class LinkedList():
 
 
 if __name__ == "__main__":
-    dictionary = {"Sam": 21, "Hannah": 21, "John": 17, "Luke": 14, "Kevin": 11}
-    for keys in dictionary.keys():
-        dictionary[]
+    s = [[1, 2, 1],
+         [5, 2, 5],
+         [1, 2, 9]]
+    array = np.array([1, 2, 1, 6])
+    print(array.argmax())
+    print(array.argmin())
+

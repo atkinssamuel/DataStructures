@@ -24,3 +24,11 @@ if __name__ == "__main__":
     # Can convert back to a list:
     unique_list = list(unique_elements)
     print("Unique elements as a list:", unique_list)
+
+    # To remove an element from a set:
+    unique_elements.remove(2)
+    print("\nRemoving an element:", unique_elements)
+
+    # To add an element:
+    unique_elements.add(10)
+    print("\nAdding an element:", unique_elements)
